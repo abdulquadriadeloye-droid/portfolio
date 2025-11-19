@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Abdulquadri</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: white;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff4d4d;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .project-card:hover {
+            background: #262626;
+            cursor: pointer;
+        }
+        .project-card h2 {
+            color: #ff4d4d;
+        }
+        .project-card p {
+            color: #cccccc;
+        }
+        .project-link {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff4d4d;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My Projects</h1>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h2>Project One</h2>
+                <p>A simple website built with HTML and CSS.</p>
+                <a class="project-link" href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h2>Project Two</h2>
+                <p>A clean landing page design.</p>
+                <a class="project-link" href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h2>Project Three</h2>
+                <p>A basic JavaScript interactive app.</p>
+                <a class="project-link" href="#">View Project</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
